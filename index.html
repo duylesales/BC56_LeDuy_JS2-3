@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="height: 100vh">
+    <h2>Bài tập 1 - JS</h2>
+    <div class="container mt-2">
+      <p>Nhập số ngày làm việc</p>
+      <input type="text" placeholder="Số Ngày" id="soNgayLamViec" />
+      <br />
+      <button
+        onclick="suatTongLuong()"
+        id="btnTinhTien"
+        class="btn btn-success mt-2"
+      >
+        Tính Tổng Tiền Lương
+      </button>
+      <div class="mt-2">kết quả : <span id="tongLuong"></span></div>
+    </div>
+
+    <hr />
+    <h2>Bài tập 2 - JS</h2>
+
+    <div class="container">
+      <input class="mt-2" type="text" placeholder="Nhập số thứ 1" id="soThu1" />
+      <br />
+      <input class="mt-2" type="text" placeholder="Nhập số thứ 2" id="soThu2" />
+      <br />
+      <input class="mt-2" type="text" placeholder="Nhập số thứ 3" id="soThu3" />
+      <br />
+      <input class="mt-2" type="text" placeholder="Nhập số thứ 4" id="soThu4" />
+      <br />
+      <input class="mt-2" type="text" placeholder="Nhập số thứ 5" id="soThu5" />
+      <br />
+      <button
+        onclick="tinhTB()"
+        class="mt-2 btn btn-secondary"
+        id="tinhTrungBinh"
+      >
+        Tính Trung Bình
+      </button>
+      <div class="mt-2">kết quả : <span id="ketQuaTB"></span></div>
+    </div>
+
+    <hr />
+
+    <h2>Bài tập 3 - JS</h2>
+
+    <div class="container">
+      <input
+        class="mt-2"
+        type="text"
+        placeholder="Nhập số tiền USD"
+        id="tienUSD"
+      />
+      <br />
+      <button onclick="quyDoi()" class="btn btn-danger mt-4" id="quyDoi">
+        Quy Đổi USD sang VND
+      </button>
+      <div class="mt-4 bg-success text-light">
+        Kết quả : <span id="doiTien"></span>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>Bài tập 4 - JS</h2>
+
+    <div class="container">
+      <input
+        class="mt-3 mr-3"
+        type="text"
+        placeholder="Nhập chiều dài"
+        id="chieuDai"
+      />
+      <input
+        class="mt-3"
+        type="text"
+        placeholder="Nhập chiều rộng"
+        id="chieuRong"
+      />
+      <br />
+      <button onclick="tinhKetQua()" class="btn btn-danger mt-3" id="ketQua">
+        Kết quả
+      </button>
+      <div class="mt-3">
+        Đáp án chu vi : <span id="chuVi"></span>
+
+        <br />
+        Đáp án diện tích : <span id="dienTich"></span>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>Bài tập 5 - JS</h2>
+
+    <div class="container">
+      <input
+        class="mt-5"
+        type="text"
+        placeholder="nhập số có 2 chữ số"
+        id="kySo"
+      />
+      <br />
+      <button onclick="Tong()" class="mt-3 btn btn-warning" id="tinhTong">
+        Tính Tổng
+      </button>
+      <br />
+      <div class="mt-3 bg-success text-light">
+        Kết quả : <span id="tongKySo"></span>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js.js"></script>
+  </body>
+</html>
